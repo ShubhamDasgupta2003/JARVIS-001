@@ -4,7 +4,7 @@ import re
 from geopy.geocoders import ArcGIS
 
 nom = ArcGIS()
-weatherApiKey = 'fe07b00c62a633eb6e6c1934da01c21a'
+weatherApiKey = ''              # Put your API Key here
 
 def showTemp(place):
         """Returns a tuple of clouds, temperature and feels like temp in degree celsius"""
