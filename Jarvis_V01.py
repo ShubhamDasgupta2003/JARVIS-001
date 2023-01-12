@@ -10,7 +10,7 @@ import atmosphere as atm
 import WeatherForecast as weather_cast
 from geopy.geocoders import ArcGIS
 
-newsApiKey = '7ef0be3d80f543bcb610f9782c0d13ef'
+newsApiKey = ''         # Put your API Key here
 newsurl = "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey={}".format(newsApiKey)
 
 engine = pt.init("sapi5");
